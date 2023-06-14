@@ -6,9 +6,9 @@ pkg install php php-apache -y
 
 termux-setup-storage
 
-sleep 5
+sleep 10
 
-git clone https://github.com/Skyhwk/htdocs.git ~/storage/shared
+git clone https://github.com/Skyhwk/htdocs.git ~/storage/shared/
 
 htdocs='/sdcard/htdocs'
 if [ ! -d $htdocs ];
