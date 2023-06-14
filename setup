@@ -8,6 +8,8 @@ termux-setup-storage
 
 sleep 5
 
+git clone https://github.com/Skyhwk/htdocs.git ~/storage/shared
+
 htdocs='/sdcard/htdocs'
 if [ ! -d $htdocs ];
 then
@@ -29,6 +31,6 @@ mv apachectl $PREFIX/bin/
 echo "PHP and Apache2 Installed Sucessfully..."
 echo "/sdcard/htdocs - is your document directory.."
 echo "Place your files in /sdcard/htdocs"
-echo "Run apachectl"
+echo "Start server => apachectl"
 
 #apachectl
